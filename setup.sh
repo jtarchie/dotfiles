@@ -9,3 +9,5 @@ if grep "$dotfiles/.gitconfig" -q -f "$HOME/.gitconfig" ; then
 fi
 
 sudo apt-get install -y ripgrep
+
+exit 1
